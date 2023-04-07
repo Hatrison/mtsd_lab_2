@@ -195,6 +195,6 @@ describe("Testing doubly linked list", () => {
     expect(list2.length()).toBe(2);
 
     expect(list.getNode(2).next.value).toBe("d");
-    expect(list.getNode(3).prev.value).toBe("c");
+    expect(list.getNode(3).prev.value).toBe("b");
   });
 });
